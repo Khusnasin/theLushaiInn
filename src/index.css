@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=PT+Sans+Narrow&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Instrument Serif', serif;
+font-family: 'PT Sans Narrow', sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+  background-color: black !important;
+}
+.nav-link{
+  color: white !important;
+}
+.navbar-brand{
+  color: white !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.smallimg{
+  height:200px;
+  width:100% !important;
+  border-radius: 5px !important;
+}
+h1{
+  font-size: 25px !important;
+}
+.btn{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+.bigimg{
+  height:350px !important;
+  border-radius: 5px !important;
+}
+input{
+  box-shadow : none !important;
+  margin-top: 10px;
+  border: 1px solid black !important;
+
+}
+h2{
+  font-size: 30px !important;
+  padding: 20px;
+  font-weight: bold !important;
+  text-align: center;
+
+}
+
+.dropdown-toggle{
+  border: 0px solid black !important;
 }
