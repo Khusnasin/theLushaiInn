@@ -21,6 +21,7 @@ function Loginscreen() {
             password,
 
         }
+        
         try {
 
             setloading(true);
@@ -29,13 +30,15 @@ function Loginscreen() {
 
             localStorage.setItem('currentUser', JSON.stringify(result));
             window.location.href = '/home';
+            console.log(result)
 
-
+ 
         } catch (error) {
             console.log(error);
             setloading(false);
             seterror(true);
         }
+        console.log(user)
     }
 
     return (

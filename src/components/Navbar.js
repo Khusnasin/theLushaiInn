@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <div>
             <nav class="navbar navbar-expand-lg ">
-                <a class="navbar-brand" href="#">Lushai Inn</a>
+                <a class="navbar-brand" href="/home">Lushai Inn</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" ><i class="fa fa-bars" style={{color : 'white'}}></i></span>
                 </button>
@@ -20,10 +20,10 @@ function Navbar() {
                             <>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class='fa fa-user'></i> {user.data.name}
+                                        <i class='fa fa-user'></i>{user.data.name}
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Bookings</a>
+                                        <a class="dropdown-item" href="/profile">Profile</a>
                                         <a class="dropdown-item" href="#" onClick={logout}>Logout</a>
                                     </div>
                                 </div>
